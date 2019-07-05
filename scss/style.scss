@@ -193,10 +193,13 @@ section {
     &.center {
         transform: scale(0.85);
     }
+    
+    &.bottom {
+        margin-top: 75px;
+    }
 
     &.active {
-        margin-right: 0;
-        margin-left: 0;
+        margin: 0;
         opacity: 1;
         transform: scale(1);
         transition: 0.5s ease-in-out;
